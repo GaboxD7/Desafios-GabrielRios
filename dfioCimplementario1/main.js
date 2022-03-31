@@ -17,7 +17,7 @@ do {
  let cantidad;
 
    menuOpciones = parseInt(prompt(
-    'fecha:31-03-2022 \n'+
+    'fecha: Marzo-2022 \n'+
     'Indique que conversion usted desea: \n'+
     '1: Pesos Chilenos a Reales\n'+
     '2: Pesos Chilenos a Dolares\n'+
@@ -49,7 +49,7 @@ do {
     moneda =`${((peso*cantidad)/real)}  Reales`;
       break;
       case 2:
-    moneda = `${(cantidad*peso)} Dolar`;
+    moneda = `${(cantidad*peso)} Dolares`;
       break;
       case 3:
     moneda = `${((peso*cantidad)/euro)} Euros`;
